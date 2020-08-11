@@ -1,4 +1,4 @@
-# hello-world
+# web-clojure-grid
 
 Studying web with clojure and css-grid (why not?)
 
