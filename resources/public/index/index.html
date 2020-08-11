@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .hero-section {
+        height: 100vh;
+        background-color: darkcyan;
+      }
+      .hero-grid {
+        padding: 12px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 15px;
+      }
+      .hero-grid-item {
+        display: flex;
+        min-height:100px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, .1);
+      }
+      .hero-grid-item:first-child {
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero-grid">
+        <div class="hero-grid-item">Block</div>
+        <div class="hero-grid-item">Block</div>
+        <div class="hero-grid-item">Block</div>
+        <div class="hero-grid-item">Block</div>
+        <div class="hero-grid-item">Block</div>
+        <div class="hero-grid-item">Block</div>
+        <div class="hero-grid-item">Block</div>
+      </div>
+    </section>
+  </body>
+</html>
